@@ -1,0 +1,30 @@
+name: Mejora
+description: Una idea o una función que falta
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema o necesidad
+      description: ¿Qué te falta o qué te resulta incómodo hoy?
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Cómo lo resolverías. Si aplica, qué módulo de la app toca.
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Privacidad
+      options:
+        - label: Esta propuesta no requiere enviar datos personales a un servidor.
+          required: true

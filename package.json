@@ -1,0 +1,56 @@
+{
+  "name": "motoapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hoja de vida, mantenimiento preventivo y bitácora para tu Yamaha XTZ 250. React + Vite, offline-first y sin backend.",
+  "license": "MIT",
+  "author": "Macorreag",
+  "homepage": "https://macorreag.github.io/motoapp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macorreag/motoapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Macorreag/motoapp/issues"
+  },
+  "keywords": [
+    "moto",
+    "mantenimiento",
+    "xtz-250",
+    "yamaha",
+    "react",
+    "vite",
+    "typescript",
+    "offline-first",
+    "indexeddb",
+    "google-apps-script"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5181",
+    "typecheck": "tsc --noEmit",
+    "build:gas": "tsc --noEmit && vite build --mode gas && node tools/copiar-gas.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}

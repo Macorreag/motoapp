@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentación y fuentes
+    url: https://github.com/Macorreag/motoapp/tree/main/docs
+    about: Investigación de producto, manual de la XTZ 250 y normativa colombiana.
+  - name: Reportar un problema de seguridad
+    url: https://github.com/Macorreag/motoapp/security/advisories/new
+    about: No abras un issue público si hay datos sensibles de por medio.

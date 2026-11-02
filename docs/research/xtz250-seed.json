@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "vehiculo": "Yamaha XTZ 250",
+    "mercado": "Colombia",
+    "generaciones_cubiertas": "2016-2025 (carburada 2016-2020; inyección electrónica ABS desde ~2021)",
+    "moneda_costos": "COP",
+    "anio_costos": "2025-2026",
+    "fecha_relevamiento": "2026-10-29",
+    "fuente_principal_intervalos": "Yamaha, Manual del propietario XTZ250 ABS, codigo B8L-F8199-S0, seccion 6 (paginas 6-2 a 6-6)",
+    "fuente_principal_ficha": "Yamaha Motor Colombia (ficha XTZ250) + Yamaha Motor Argentina (ficha PDF) + manual B8L-F8199-S0",
+    "regla_de_oro": "El intervalo oficial es 5000 km / 6 meses, lo que ocurra primero. '3000' que repiten los talleres son MILLAS (3000 mi = 5000 km).",
+    "advertencia": "Los campos null significan 'no fijado por el manual' o 'no aplica'; ver notas de cada componente y el informe 02-xtz250-mantenimiento.md seccion 7."
+  },
+  "ficha_tecnica": {
+    "motor": {
+      "tipo": "Monocilindrico 4 tiempos SOHC 2 valvulas",
+      "refrigeracion": "Aire + enfriador de aceite (radiador de 3 filas)",
+      "cilindrada_cc": 249,
+      "diametro_x_carrera_mm": "74.0 x 58.0",
+      "relacion_compresion": 9.8,
+      "potencia_hp_rpm": 20.4,
+      "potencia_rpm": 8000,
+      "torque_nm": 20.5,
+      "torque_rpm": 6500,
+      "alimentacion": "Inyeccion electronica (cuerpo de acelerador 4B43); versiones 2016-2020 con carburador Mikuni",
+      "encendido": "TCI",
+      "arranque": "Electrico",
+      "ralenti_rpm_min": 1300,
+      "ralenti_rpm_max": 1500,
+      "lubricacion": "Carter humedo, bomba trocoidal",
+      "transmision_marchas": 5,
+      "relacion_final": "40/13 (3.077)",
+      "embrague": "Multidisco en bano de aceite"
+    },
+    "dimensiones": {
+      "largo_mm": 2150,
+      "ancho_mm": 820,
+      "alto_mm": 1210,
+      "altura_asiento_mm": 875,
+      "distancia_ejes_mm": 1385,
+      "altura_minima_suelo_mm": 270,
+      "peso_orden_marcha_kg": 152,
+      "peso_orden_marcha_kg_nota": "151 kg en la ficha de Yamaha Colombia; 152 kg en el manual y en la ficha de Yamaha Argentina",
+      "carga_maxima_kg": 157
+    },
+    "combustible": {
+      "capacidad_tanque_l": 14,
+      "capacidad_tanque_l_nota": "14 L en la ficha comercial; 13.6 L en el manual del propietario",
+      "reserva_l": 3.7,
+      "octanaje_ron": 90,
+      "tipo": "Gasolina sin plomo (E10 aceptable)"
+    },
+    "aceite_motor": {
+      "viscosidad_sae": "10W-40",
+      "especificacion_api": "API SG o superior",
+      "especificacion_jaso": "JASO MA",
+      "capacidad_cambio_sin_filtro_l": 1.35,
+      "capacidad_cambio_con_filtro_l": 1.45,
+      "capacidad_total_l": 1.55,
+      "aceite_version_carburada": "Yamalube 4T 20W-50 API SH o superior (manual de taller 4B41)"
+    },
+    "encendido": {
+      "bujia": "NGK DR8EA",
+      "bujia_gap_mm": "0.6-0.7",
+      "bujia_torque_nm": 18,
+      "bateria": "XTZ7L",
+      "bateria_voltaje_v": 12,
+      "bateria_capacidad_ah": 6.0
+    },
+    "llantas": {
+      "delantera_medida": "80/90-21 M/C 48S",
+      "trasera_medida": "120/80-18 M/C 62S",
+      "tipo": "Con camara (TT)",
+      "modelo_oem": "Metzeler Tourance",
+      "presion_solo_del_psi": 18,
+      "presion_solo_tras_psi": 22,
+      "presion_dos_del_psi": 22,
+      "presion_dos_tras_psi": 29,
+      "presion_solo_del_kpa": 125,
+      "presion_solo_tras_kpa": 150,
+      "presion_dos_del_kpa": 150,
+      "presion_dos_tras_kpa": 200
+    },
+    "frenos": {
+      "delantero": "Disco 245 x 3.5 mm, pinza 2 pistones, ABS monocanal",
+      "trasero": "Disco 203 x 4.5 mm, pinza 1 piston",
+      "liquido": "DOT 4"
+    },
+    "suspension": {
+      "delantera": "Horquilla telescopica 41 mm, 220 mm de recorrido",
+      "trasera": "Basculante con bieletas (monocross), 205 mm de recorrido",
+      "aceite_horquilla": "10W o equivalente, 541 cc por barra, nivel 134 mm"
+    },
+    "transmision_final": {
+      "tipo": "Cadena",
+      "paso_oem": 428,
+      "eslabones_oem": 130,
+      "paso_oem_nota": "428 x 130 es la especificacion del manual de taller del modelo carburado 4B41 (Lander 15/46). No hay documento Yamaha que fije el paso del 13/40 colombiano; el kit oficial Nitrox es 520H x 122.",
+      "pinon_dientes": 13,
+      "catalina_dientes": 40,
+      "holgura_cadena_mm": "30-40",
+      "kit_aftermarket_colombia": "520H x 122 eslabones, 13/40 (Nitrox)",
+      "tuerca_eje_trasero_nm": 46,
+      "contratuerca_tensor_nm": 15
+    },
+    "filtros": {
+      "aceite": "Cartucho de papel, ref. Yamaha 38B-E3440-00-00",
+      "aire": "Espuma humeda, ref. aftermarket FAI-1014"
+    },
+    "rendimiento_real": {
+      "km_por_litro_rango": "28-33",
+      "km_por_galon_rango": "105-125",
+      "valores_de_prueba": [
+        "125 km/gal (prueba demotos.com.co, Colombia)",
+        "29.9 km/L (autoesporte, Lander 2019 ABS, Brasil)",
+        "27 km/L (webmotors, Ténéré 250, Brasil)"
+      ],
+      "nota": "Sin dato homologado oficial; son pruebas de prensa. En Bogota (2600 m, trafico) usar 28-30 km/L."
+    }
+  },
+  "componentes": [
+    {
+      "id": "aceite-motor",
+      "nombre": "Aceite de motor 10W-40 JASO MA (1.45 L con filtro)",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": { "min_km": 3000, "tipico_km": 5000, "max_km": 7000 },
+      "costo_estimado_cop": { "min_cop": 62000, "max_cop": 110000 },
+      "notas": "Oficial: 5000 km o 6 meses, lo primero. Incluye mano de obra de concesionario (promocion $62.000, tarifa normal $110.000). En Bogota urbano bajar a 3000-4000 km / 4 meses."
+    },
+    {
+      "id": "filtro-aceite",
+      "nombre": "Filtro de aceite (cartucho de papel)",
+      "intervalo_km": 10000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 8000, "tipico_km": 10000, "max_km": 15000 },
+      "costo_estimado_cop": { "min_cop": 5227, "max_cop": 25000 },
+      "notas": "Oficial: se cambia a los 1000, 10000 y 20000 km (NO en cada cambio de aceite). Ref. Yamaha 38B-E3440-00-00. En Bogota urbano: 8000 km o cada 2 cambios de aceite."
+    },
+    {
+      "id": "filtro-aire-limpieza",
+      "nombre": "Filtro de aire - limpieza y reengrase (espuma)",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": { "min_km": 2500, "tipico_km": 5000, "max_km": 5000 },
+      "costo_estimado_cop": { "min_cop": 0, "max_cop": 20000 },
+      "notas": "Oficial: limpiar a los 5000 y 15000 km. Usar aceite para filtros de espuma. En Bogota (polvo de obras) 2500-3000 km; en destapado 1000-2000 km."
+    },
+    {
+      "id": "filtro-aire-cambio",
+      "nombre": "Filtro de aire - cambio",
+      "intervalo_km": 10000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 8000, "tipico_km": 10000, "max_km": 20000 },
+      "costo_estimado_cop": { "min_cop": 11730, "max_cop": 30000 },
+      "notas": "Oficial: cambiar a los 10000 y 20000 km. Ref. aftermarket FAI-1014 (espuma)."
+    },
+    {
+      "id": "bujia-revision",
+      "nombre": "Bujia NGK DR8EA - revision, limpieza y ajuste de gap",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": { "min_km": 5000, "tipico_km": 5000, "max_km": 5000 },
+      "costo_estimado_cop": { "min_cop": 0, "max_cop": 15000 },
+      "notas": "Oficial: revisar en cada servicio. Gap 0.6-0.7 mm. Par de apriete 18 Nm. Sintomas de bujia gastada: cortes a 4000 rpm, arranque dificil."
+    },
+    {
+      "id": "bujia-cambio",
+      "nombre": "Bujia NGK DR8EA - cambio",
+      "intervalo_km": 10000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 6000, "tipico_km": 10000, "max_km": 15000 },
+      "costo_estimado_cop": { "min_cop": 14800, "max_cop": 25000 },
+      "notas": "Oficial: cambiar a los 10000 y 20000 km."
+    },
+    {
+      "id": "valvulas-holgura",
+      "nombre": "Holgura de valvulas - revision y ajuste (motor frio)",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": null,
+      "costo_estimado_cop": { "min_cop": 60000, "max_cop": 150000 },
+      "notas": "Oficial: comprobar y ajustar en CADA servicio (1000/5000/10000/15000/20000 y cada 6 meses). Valores: admision 0.05-0.10 mm, escape 0.08-0.13 mm (manual de taller 4B41, version carburada; no confirmado para la FI). En la practica: 8000-10000 km si no hay ruido ni ralenti inestable. Mano de obra $60.000-$100.000 (basico) hasta $150.000."
+    },
+    {
+      "id": "ralenti-inyeccion",
+      "nombre": "Ajuste de ralenti / inyeccion (1300-1500 rpm)",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": null,
+      "costo_estimado_cop": { "min_cop": 0, "max_cop": 30000 },
+      "notas": "Oficial: ajustar el ralenti en cada servicio. No aplica sincronizacion (monocilindrico, un solo cuerpo de acelerador)."
+    },
+    {
+      "id": "cadena-lubricacion",
+      "nombre": "Cadena de transmision - revision de holgura, alineacion y lubricacion",
+      "intervalo_km": 500,
+      "intervalo_meses": 1,
+      "vida_util_km": null,
+      "costo_estimado_cop": { "min_cop": 0, "max_cop": 15000 },
+      "notas": "Oficial: cada 500 km y despues de lavar la moto, rodar con lluvia o en zonas humedas. Holgura 30-40 mm (version FI). Limpiar con queroseno y lubricar con lubricante para cadenas con juntas toricas. Es el item que mas fallas previene."
+    },
+    {
+      "id": "kit-arrastre",
+      "nombre": "Kit de arrastre (cadena + pinon 13T + catalina 40T)",
+      "intervalo_km": 20000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 15000, "tipico_km": 25000, "max_km": 35000 },
+      "costo_estimado_cop": { "min_cop": 96687, "max_cop": 250000 },
+      "notas": "El manual NO fija intervalo de cambio; solo lubricacion cada 500 km. Rangos de campo. Repuesto oficial Nitrox 13/40 520H-122: $96.687; aftermarket $199.499; Regina premium $608.000. Mano de obra $40.000-$80.000. En destapado bajar a 12000-18000 km. El manual advierte que sin lubricacion la cadena se desgasta rapidamente."
+    },
+    {
+      "id": "pastillas-freno-delanteras",
+      "nombre": "Pastillas de freno delanteras",
+      "intervalo_km": 3000,
+      "intervalo_meses": 6,
+      "vida_util_km": { "min_km": 8000, "tipico_km": 15000, "max_km": 22000 },
+      "costo_estimado_cop": { "min_cop": 10455, "max_cop": 75000 },
+      "notas": "Oficial: revisar en cada servicio y cambiar 'siempre que lleguen al limite de desgaste'. Costo incluye pastillas ($10.455 oficial) + mano de obra ($20.000-$40.000). En urbano revisar cada 3000 km."
+    },
+    {
+      "id": "pastillas-freno-traseras",
+      "nombre": "Pastillas de freno traseras",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": { "min_km": 10000, "tipico_km": 18000, "max_km": 25000 },
+      "costo_estimado_cop": { "min_cop": 10327, "max_cop": 75000 },
+      "notas": "Misma logica que las delanteras. En la XTZ 250 el freno trasero es de disco de 203 mm."
+    },
+    {
+      "id": "liquido-frenos",
+      "nombre": "Liquido de frenos DOT 4 - cambio",
+      "intervalo_km": null,
+      "intervalo_meses": 24,
+      "vida_util_km": null,
+      "vida_util_meses": { "min_meses": 24, "tipico_meses": 24, "max_meses": 36 },
+      "costo_estimado_cop": { "min_cop": 32900, "max_cop": 70000 },
+      "notas": "Oficial: cada 2 anos (solo tiempo). DOT 4 500 ml: $32.900 + mano de obra. El clima humedo de Bogota acelera la absorcion de agua; no pasar de 24 meses."
+    },
+    {
+      "id": "tubo-freno",
+      "nombre": "Tubo de freno - cambio",
+      "intervalo_km": null,
+      "intervalo_meses": 48,
+      "vida_util_km": null,
+      "vida_util_meses": { "min_meses": 48, "tipico_meses": 48, "max_meses": 60 },
+      "costo_estimado_cop": { "min_cop": 40000, "max_cop": 120000 },
+      "notas": "Oficial: cambiar cada 4 anos. Entre cambios, comprobar agrietamiento, posicion y fijacion en cada servicio."
+    },
+    {
+      "id": "llanta-delantera",
+      "nombre": "Llanta delantera 80/90-21 M/C 48S (con camara)",
+      "intervalo_km": 18000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 12000, "tipico_km": 18000, "max_km": 25000 },
+      "costo_estimado_cop": { "min_cop": 227757, "max_cop": 320000 },
+      "notas": "Oficial: comprobar presion y dibujo en cada servicio; cambiar al limite legal (1.6 mm). Precio Pirelli MT70 80/90-21 $227.757; MT60 $277.567. Sumar montaje/balanceo $15.000-$35.000. Presion 18 psi solo / 22 psi con pasajero."
+    },
+    {
+      "id": "llanta-trasera",
+      "nombre": "Llanta trasera 120/80-18 M/C 62S (con camara)",
+      "intervalo_km": 15000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 10000, "tipico_km": 15000, "max_km": 22000 },
+      "costo_estimado_cop": { "min_cop": 382500, "max_cop": 550000 },
+      "notas": "Metzeler Tourance 120/80-18: $382.500 (American Motos) a $514.800 (Virtual Llantas). Presion 22 psi solo / 29 psi con pasajero. En destapado dura 8000-12000 km."
+    },
+    {
+      "id": "bateria",
+      "nombre": "Bateria 12 V 6 Ah VRLA (XTZ7L)",
+      "intervalo_km": null,
+      "intervalo_meses": 36,
+      "vida_util_km": null,
+      "vida_util_meses": { "min_meses": 24, "tipico_meses": 36, "max_meses": 48 },
+      "costo_estimado_cop": { "min_cop": 90312, "max_cop": 160000 },
+      "notas": "Sin intervalo oficial; reemplazo por tiempo/estado. Equivalente gel 12N7B: $90.312. Revisar voltaje de carga (14.1-14.8 V a 3000 rpm) en cada servicio. En clima frio de Bogota dura 2-3 anos."
+    },
+    {
+      "id": "aceite-horquilla",
+      "nombre": "Aceite de horquilla delantera (10W, 541 cc por barra)",
+      "intervalo_km": 20000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 15000, "tipico_km": 20000, "max_km": 25000 },
+      "costo_estimado_cop": { "min_cop": 60000, "max_cop": 140000 },
+      "notas": "El manual NO fija intervalo (solo comprobar fugas en cada servicio). Estimado por practica de talleres. Aprovechar para cambiar retenes si se abre la horquilla."
+    },
+    {
+      "id": "retenes-horquilla",
+      "nombre": "Retenes y guardapolvos de horquilla",
+      "intervalo_km": 30000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 15000, "tipico_km": 30000, "max_km": 45000 },
+      "costo_estimado_cop": { "min_cop": 60000, "max_cop": 180000 },
+      "notas": "Estimado. Revisar fugas de aceite en cada servicio (oficial). El polvo de Bogota y el barro los resientan; limpiar los sellos con lamina de plastico antes de cambiarlos."
+    },
+    {
+      "id": "amortiguador-trasero",
+      "nombre": "Amortiguador trasero (reparacion o recambio)",
+      "intervalo_km": 40000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 25000, "tipico_km": 40000, "max_km": 60000 },
+      "costo_estimado_cop": { "min_cop": 200000, "max_cop": 600000 },
+      "notas": "Oficial: comprobar funcionamiento y fugas en cada servicio. Estimado para el recambio. Lubricar los pivotes de bieletas cada 10000 km para que el amortiguador dure."
+    },
+    {
+      "id": "rodamientos-direccion",
+      "nombre": "Cojinetes de direccion - lubricacion",
+      "intervalo_km": 10000,
+      "intervalo_meses": null,
+      "vida_util_km": { "min_km": 30000, "tipico_km": 45000, "max_km": 60000 },
+      "costo_estimado_cop": { "min_cop": 40000, "max_cop": 120000 },
+      "notas": "Oficial: comprobar juego en cada servicio y lubricar con grasa de litio cada 10000 km. Reemplazo de cojinetes ~30000-60000 km."
+    },
+    {
+      "id": "cables-control",
+      "nombre": "Cables de embrague y acelerador - lubricacion",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": { "min_km": 12000, "tipico_km": 20000, "max_km": 30000 },
+      "costo_estimado_cop": { "min_cop": 26180, "max_cop": 60000 },
+      "notas": "Oficial: lubricar piezas moviles y cables en cada servicio. Cable de acelerador: $26.180 (Auteco). Factores de riesgo: polvo y agua; el manual advierte no dirigir agua a presion sobre la cubierta del cable."
+    },
+    {
+      "id": "fijaciones-bastidor",
+      "nombre": "Reapriete de fijaciones del bastidor y tornilleria",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": null,
+      "costo_estimado_cop": { "min_cop": 20000, "max_cop": 60000 },
+      "notas": "Oficial: comprobar apriete de tuercas, pernos y tornillos en cada servicio (vibracion del monocilindrico). Incluye ejes de rueda (46 Nm) y abrazaderas de escape."
+    },
+    {
+      "id": "servicio-general",
+      "nombre": "Servicio general / revision completa (mano de obra)",
+      "intervalo_km": 5000,
+      "intervalo_meses": 6,
+      "vida_util_km": null,
+      "costo_estimado_cop": { "min_cop": 80000, "max_cop": 180000 },
+      "notas": "Estimado de taller. Cubre la lista de comprobaciones del manual (frenos, luces, suspension, direccion, cadena, niveles). El primer servicio (1000 km) es el mas importante: incluye reapriete general y valvulas."
+    }
+  ]
+}

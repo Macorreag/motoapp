@@ -1,0 +1,34 @@
+# Dependencias y build
+node_modules/
+dist/
+dist-gas/
+*.log
+.dev-server.log
+.npm-cache/
+.npm-logs/
+
+# Configuración y credenciales locales (nunca se publican)
+.env
+.env.local
+.env.*.local
+*.local
+.home/
+.tools/
+.tok
+.clasprc.json
+
+# Despliegue de Apps Script (IDs y artefactos generados por build:gas)
+gas/.clasp.json
+gas/Bundle.gs
+gas/app.html
+
+# Capturas de referencia de Tucamo (material de terceros, solo análisis local)
+docs/reference/
+docs/research/img/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

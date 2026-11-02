@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+*.pdf binary
+
+dist/ -diff
+gas/Bundle.gs linguist-generated=true
+gas/app.html linguist-generated=true

@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Typecheck, build y secretos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build
+
+      - name: Buscar secretos e IDs de Google versionados
+        run: |
+          set -euo pipefail
+          patrones='AKfycb[0-9A-Za-z_-]{20,}|script\.google\.com/macros/s/[0-9A-Za-z_-]{20,}|AIza[0-9A-Za-z_-]{30,}|ghp_[0-9A-Za-z]{30,}|github_pat_[0-9A-Za-z_]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY'
+          if grep -rInE "$patrones" . \
+               --exclude-dir=node_modules --exclude-dir=.git --exclude-dir=dist \
+               --exclude=ci.yml; then
+            echo "::error::Posible secreto en el repositorio."
+            exit 1
+          fi
+          echo "Sin secretos evidentes."
+
+      - name: Comprobar que la configuración local no está versionada
+        run: |
+          set -euo pipefail
+          for archivo in .env.local gas/.clasp.json gas/Bundle.gs gas/app.html; do
+            if git ls-files --error-unmatch "$archivo" >/dev/null 2>&1; then
+              echo "::error::$archivo no debe estar en el repositorio."
+              exit 1
+            fi
+          done
+          echo "Configuración local fuera del repositorio."
