@@ -1,19 +1,33 @@
 version: 2
+
+# Actualizaciones de dependencias: solo parches y menores.
+# Las versiones mayores se revisan a mano por si traen cambios incompatibles.
 updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: weekly
-      day: monday
-    open-pull-requests-limit: 5
+      interval: monthly
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "chore(deps)"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       desarrollo:
         dependency-type: development
+        update-types: ["minor", "patch"]
       produccion:
         dependency-type: production
+        update-types: ["minor", "patch"]
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 2
+    commit-message:
+      prefix: "chore(ci)"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
