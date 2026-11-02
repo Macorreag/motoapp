@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/Macorreag/motoapp/actions/workflows/ci.yml/badge.svg)](https://github.com/Macorreag/motoapp/actions/workflows/ci.yml)
 [![Deploy GitHub Pages](https://github.com/Macorreag/motoapp/actions/workflows/deploy.yml/badge.svg)](https://github.com/Macorreag/motoapp/actions/workflows/deploy.yml)
+[![Release](https://img.shields.io/github/v/release/Macorreag/motoapp?label=release&color=f97316)](https://github.com/Macorreag/motoapp/releases)
 [![Demo](https://img.shields.io/badge/demo-macorreag.github.io%2Fmotoapp-f97316)](https://macorreag.github.io/motoapp/)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-3b82f6)](LICENSE)
 [![Datos locales](https://img.shields.io/badge/datos-100%25%20locales-16a34a)](docs/PRIVACY.md)
